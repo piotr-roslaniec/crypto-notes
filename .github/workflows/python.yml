@@ -45,8 +45,7 @@ jobs:
       - name: Convert and run Jupyter Notebooks
         run: |
           for notebook in $(find . -name "*.ipynb"); do
-            pipenv run jupyter nbconvert --to script $notebook
-            pipenv run python ${notebook%.ipynb}.py
+            pipenv run jupyter nbconvert --to notebook --execute $notebook 
           done
 
 # No tests yet
