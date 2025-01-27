@@ -10,7 +10,7 @@ cryptography = "==43.0.3"
 [dev-packages]
 jupyter = "==1.1.1"
 nbconvert = "==7.16.4"
-jupytext = "==1.16.4"
+jupytext = "==1.16.6"
 nbqa = { extras = ["toolchain"], version = "==1.9.0" }
 
 [requires]
