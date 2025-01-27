@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-galois = "==0.4.3"
+galois = "==0.4.4"
 cryptography = "==43.0.3"
 
 [dev-packages]
