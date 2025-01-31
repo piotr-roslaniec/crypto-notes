@@ -15,6 +15,15 @@ pipenv shell --python3.10
 pipenv install --dev
 ```
 
+### Git Hooks
+
+You may want to install the pre-commit git hook:
+
+```bash
+cp ./scripts/pre-commit.sh .git/hooks/pre-commit
+```
+
+
 ## Usage
 
 ```bash
