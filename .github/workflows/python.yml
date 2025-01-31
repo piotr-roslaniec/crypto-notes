@@ -47,6 +47,6 @@ jobs:
 
       - name: Convert and run Jupyter Notebooks
         run: |
-          for notebook in $(find . -name "*.ipynb"); do
+          for notebook in $(find ./notebooks -name "*.ipynb"); do
             pipenv run jupyter nbconvert --to notebook --execute $notebook 
           done
